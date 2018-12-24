@@ -36,7 +36,7 @@ If the bank observes a significant increase in ROI as a result of the developmen
 
 * The conversion rate of the current marketing campaign is 11%
 
-* A simple "domain-driven" model that chooses customers to target based on whether they converted in the last marketing campaign and choosing remaining customers randomly, improved the current conversion rate by 250% - bringing the conversion rate of targeted customers to 39%
+* A simple "domain-driven" model that chooses customers to target based on whether they converted in the last marketing campaign and chooses remaining customers randomly improved the current conversion rate by 250% - bringing the conversion rate of targeted customers to 39%
 
 * A Naive Bayes model using only categorical features from the original training set improved the baseline conversion rate by 354% - bringing the conversion rate of targeted customers to 51%
 
@@ -49,15 +49,13 @@ If the bank observes a significant increase in ROI as a result of the developmen
 The data retrieved from the UCI Machine Learning Repository as well as training and test sets.
 
 * `bank_additional/`
-
-  [Original dataset and supporting documentation](https://archive.ics.uci.edu/ml/datasets/bank+marketing) retrieved from the UCI Machine Learning Repository on December 1, 2018.
+   * [Original dataset and supporting documentation](https://archive.ics.uci.edu/ml/datasets/bank+marketing) retrieved from the UCI Machine Learning Repository on December 1, 2018.
 
 * `train.csv`
-  
-   The dataset used for exploratory analysis to train machine learning models
+   * The dataset used for exploratory analysis to train machine learning models
+
 * `test.csv`
-  
-  The dataset used to evaluate the optimal model
+   * The dataset used to evaluate the optimal model
 
 ### docs
 
@@ -76,7 +74,8 @@ Project documentation including the project context and scope, financial models,
 
 Serialized model objects with optimized hyperparameters.
 
-* `experiment-1-model.pk` - The scikit-learn implementation of Naive Bayes which was the optimal model of the project
+* `experiment-1-model.pk`
+   * The scikit-learn implementation of Naive Bayes which was the optimal model of the project
 
 ### notebooks
 
