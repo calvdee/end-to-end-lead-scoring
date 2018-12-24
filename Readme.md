@@ -93,6 +93,9 @@ Exploratory analysis and experiment code.
 * `3.1-experiment-2-model.ipynb`
   * The second experiment designed to evaluate the effectiveness of derived features with the best performing model from experiment #1
 
+* `4.0-model-evaluation.ipynb`
+   * Evaluation of the best performing model on the held-out test set
+
 ### support
 
 A supporting library that encapsulates ML model objects and provides tools for evaluation and hyperparameter tuning. Most of this code will be moved to a standalone library, except for:
