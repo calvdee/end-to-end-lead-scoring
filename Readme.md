@@ -5,7 +5,7 @@ The purpose of this project is to provide an end-to-end example of working an en
 
 With so many online articles and trainings focussed on the math, computer science, and machine learning aspects of data science, little attention has been given to the _science_ aspect, which is to formulate falsifiable hypotheses and employ the scientific method to confirm or refute them. I have yet to find a project that captures the breadth of thought required to scope a project and reduce the risk of doing the wrong things or over-engineering a solution. My approach for this project was to include artifacts that go beyond exploratory and machine learning notebooks, providing the artifacts and structure of a data science project in a business setting.
 
-While this project is not perfect - the argument should be stronger, quantification of costs and benefits more considered, and the resulting model could perform better - its level of detail is reflective of the effort required to to create a reproducible data science solution that is aligned with stakeholder expectations. As with most data science projects, we could continue to tweak our analysis and the model ad infinitum in the pursuit of perfection but in the real world, we are constrained by budgets and thus, time. As you'll see in the project summary document (`docs/3-Vision, Arguments, and Results.docx`), even if we had unlimited budget to refine the analysis and model, the initial results are likely satisfactory enough to deploy so we could move on and pursue a different project. Often, it is a good business decision to do the [simplest thing that could possibly work](http://www.agilenutshell.com/simplest_thing).
+While this project is not perfect - the argument should be stronger, quantification of costs and benefits more well-considered, and the resulting model could perform better - its level of detail is reflective of the effort required to to create a reproducible data science solution that is aligned with stakeholder expectations. As with most data science projects, we could continue to tweak our analysis and the model ad infinitum in the pursuit of perfection but in the real world, we are constrained by budgets and thus, time. As you'll see in the project summary document (`docs/3-Vision, Arguments, and Results.docx`), even if we had unlimited budget to refine the analysis and model, the initial results are likely satisfactory enough to deploy so we could move on and pursue a different project. Often, it is a good business decision to do the [simplest thing that could possibly work](http://www.agilenutshell.com/simplest_thing).
 
 ## Overview
 This project uses the Bank Marketing Dataset published to the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/bank+marketing) to demonstrate the scoping and implementation of a real-world data science project. The dataset's description on the UCI Machine Learning website states:
@@ -32,15 +32,15 @@ If the bank observes a significant increase in ROI as a result of the developmen
 
 ## Key Insights
 
-* The conversion rate of the previous marketing campaign was 25%
+* The conversion rate of the previous marketing campaign was 25%.
 
-* The conversion rate of the current marketing campaign is 11%
+* The conversion rate of the current marketing campaign is 11%.
 
-* A simple "domain-driven" model that chooses customers to target based on whether they converted in the last marketing campaign and chooses remaining customers randomly improved the current conversion rate by 250% - bringing the conversion rate of targeted customers to 39%
+* A simple "domain-driven" model that chooses customers to target based on whether they converted in the last marketing campaign and chooses remaining customers randomly improved the current conversion rate by 250% - bringing the conversion rate of targeted customers to 39%.
 
-* A Naive Bayes model using only categorical features from the original training set improved the baseline conversion rate by 354% - bringing the conversion rate of targeted customers to 51%
+* A Naive Bayes model using only categorical features from the original training set improved the baseline conversion rate by 354% - bringing the conversion rate of targeted customers to 51%.
 
-* With the Naive Bayes model, targeting 6.6% of the population identifies ~30% of the respondents
+* With the Naive Bayes model, targeting 6.6% of the population identifies ~30% of the respondents.
 
 ## Project Structure
 
@@ -59,15 +59,15 @@ The data retrieved from the UCI Machine Learning Repository as well as training 
 
 ### docs
 
-Project documentation including the project context and scope, financial models, and an articulation of the solution.
+Project documentation including the project context and scope, financial models, and an articulation of the solution. All of the documentation can also be found in [this Google Drive folder](https://drive.google.com/drive/folders/1CALQVFCMiGfsMvMqmVnLJII_EXaI5Obn?usp=sharing).
 
-* `1-CoNVO.docx`
-  * A document describing the scope of the project -its Context, Needs, Vision and Outcome 
+* `1-CoNVO.docx` ([view online in Google Docs](https://docs.google.com/document/d/1LkOGwPcyZN6hDQ-KPCfb6p9m6VegMKE3FnxdYroSYyU/edit?usp=sharing))
+  * A document describing the scope of the project - its Context, Needs, Vision and Outcome 
 
-* `2-Problem Model.xlsx` (#TODO)
+* `2-Problem Model.xlsx` ([view online in Google Sheets](https://docs.google.com/spreadsheets/d/130ZcVo1fXGJpU3OEzcxuvCbUXOJXL7O60d9L1uYzyvM/edit?usp=sharing))
   * A spreadsheet model of the problem dynamics including costs, benefits, campaign conversion rates, and what-if scenarios
 
-* `3-Vision, Arguments, and Results.docx` (#TODO)
+* `3-Vision, Arguments, and Results.docx` ([view online in Google Docs](https://docs.google.com/document/d/19iYs0QEEOEtSJNAAwzq-vCSucLpMBAZPBxvOZlLFdWg/edit?usp=sharing))
   * A document articulating the refinement of the problem, establishing definitions, values, and an operational measure of success / effectiveness
 
 ### models
