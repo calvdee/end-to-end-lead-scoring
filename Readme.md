@@ -67,10 +67,10 @@ Project documentation including the project context and scope, financial models,
 * `1-CoNVO.docx` ([view online in Google Docs](https://docs.google.com/document/d/1LkOGwPcyZN6hDQ-KPCfb6p9m6VegMKE3FnxdYroSYyU/edit?usp=sharing))
   * A document describing the scope of the project - its Context, Needs, Vision and Outcome 
 
-* `2-Problem Model.xlsx` ([view online in Google Sheets](https://docs.google.com/spreadsheets/d/130ZcVo1fXGJpU3OEzcxuvCbUXOJXL7O60d9L1uYzyvM/edit?usp=sharing))
+* `2-Problem Model.xlsx` ([view online in Google Sheets](https://drive.google.com/open?id=1rDIC9r9fduUbbMj7KvcDUYNujHfReoDB))
   * A spreadsheet model of the problem dynamics including costs, benefits, campaign conversion rates, and what-if scenarios
 
-* `3-Vision, Arguments, and Results.docx` ([view online in Google Docs](https://docs.google.com/document/d/19iYs0QEEOEtSJNAAwzq-vCSucLpMBAZPBxvOZlLFdWg/edit?usp=sharing))
+* `3-Vision, Arguments, and Results.docx` ([view online in Google Docs](https://drive.google.com/open?id=1pO5jlEivQn1SbJtorNDzHBStk1m3i0d2))
   * A document articulating the refinement of the problem, establishing definitions, values, and an operational measure of success / effectiveness
 
 ### models
