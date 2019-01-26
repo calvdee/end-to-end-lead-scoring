@@ -67,19 +67,3 @@ def get_pipeline():
   ])
 
   return pipeline
-
-def baseline_model_predictions(X, y, n_targeted):
-  # Get all of the instances where the previous campaign was a success
-  success = X[X.poutcome == 'success']
-  
-  # Calcuate how many more instances we need
-  n_rest = n_targeted - len(success)
-  
-  # Randomly choose from the remaining instances
-  rest = X[~(X.index.isin(success.index))].sample(n=n_rest, random_state=1)
-  
-  # Combine the targeted and random groups
-  baseline_targets = pd.concat([success, rest], axis=0)
-  baseline_ys = y.loc[baseline_targets.index]
-
-  return baseline_ys
