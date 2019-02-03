@@ -39,7 +39,7 @@ def get_categorical_pipeline():
 
   return cat_pipeline
 
-def get_numeric_pipeline():
+def get_numeric_pipeline(numeric_features=NUMERIC_FEATURES):
   # Create the transformers for numeric features
   num_ct = ColumnTransformer([('numerics', 'passthrough', NUMERIC_FEATURES)])
 
